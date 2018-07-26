@@ -52,6 +52,11 @@ var app = express()
 
 app.get('/home', (req, res) => res.render(index,pageData.home))
 
+// ---------------------------------
+// PAGE1	
+
+app.get('/page1', (req, res) => res.render(index,pageData.page1))
+
 // ----------------------------------
 // ----------------------------------
 // ----------------------------------
