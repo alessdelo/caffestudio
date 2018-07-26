@@ -15,10 +15,10 @@ var dbUri = process.env.MONGODB_URI
 var fs = require('fs')
 
 
-var index = 'pages/index5'
-var header = "../partials/header2.ejs"
-var nav = "../partials/nav7.ejs"
-var footer = "../partials/footer1.ejs"
+var index = 'pages/index'
+var header = "../partials/header.ejs"
+var nav = "../partials/nav.ejs"
+var footer = "../partials/footer.ejs"
 
 
 var pageData = {
