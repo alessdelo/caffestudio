@@ -48,6 +48,12 @@ var app = express()
   app.set('view engine', 'ejs')
 
 // ---------------------------------
+// MAIN
+
+app.get('/', (req, res) => res.render(index,pageData.home))
+
+
+// ---------------------------------
 // HOME	
 
 app.get('/home', (req, res) => res.render(index,pageData.home))
