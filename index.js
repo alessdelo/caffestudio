@@ -30,7 +30,7 @@ var pageData = {
     footer: footer,
     params: []
   },
-  gallery1: {
+  page1: {
     title:'page 1',
     content:'../contents/page1.ejs',
     nav: nav,
