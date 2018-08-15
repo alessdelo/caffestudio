@@ -1,6 +1,6 @@
 {
   "name": "Caffe Studio Design Lab",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "first Caffe Studio Design Lab App",
   "engines": {
     "node": "8.9.1"
