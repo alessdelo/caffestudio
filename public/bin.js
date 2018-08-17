@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alessdelo/caffestudiodesignlab"
+    "url": "https://github.com/alessdelo/caffestudiodesignlab.git"
   },
   "keywords": [
     "design",
