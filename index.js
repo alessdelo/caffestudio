@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000
  var fs = require('fs')
 
 
-var index = 'pages/index'
+var index = 'views/pages/index'
 var header = "../partials/header.ejs"
 var nav = "../partials/nav.ejs"
 var footer = "../partials/footer.ejs"
