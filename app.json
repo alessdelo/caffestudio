@@ -1,8 +1,7 @@
 {
   "name": "Caffe Studio Design Lab",
   "description": "Experimental web contents by Caffe Studio Design Lab",
+  "keywords": [ "design", "contract", "restaurants" ],
   "repository": "https://github.com/alessdelo/caffestudiodesignlab",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["design", "contract", "restaurants"],
   "image": "heroku/nodejs"
 }
