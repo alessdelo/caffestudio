@@ -109,3 +109,29 @@ app.get('/page1', (req, res) => res.render(index,pageData.page1))
 // ----------------------------------
 
  app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
+
+
+// **********************************************
+// **********************************************
+
+{
+  "name": "Caffe Studio Design Lab",
+  "version": "1.0.0",
+  "description": "Caffe Studio Design Lab App ",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "engines": {
+      "node": "8.9.2",
+      "npm": "5.7.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+ }
+
