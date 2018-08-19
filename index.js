@@ -1,5 +1,10 @@
 const express = require('express')
 const path = require('path')
+const mongoose = require('mongoose')
+const assert = require('assert')
+const bodyParser = require('body-parser')
+const THREE = require('three')
+
 const PORT = process.env.PORT || 5000
 
 express()
