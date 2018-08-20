@@ -1,13 +1,13 @@
 {
   "name": "Caffe Studio Design Lab",
   "version": "0.1.0",
-  "description": "Caffe Studio Design Lab App ",
+  "description": "Caffe Studio Design Lab App",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
   "engines": {
-    "node": "8.9.2"
+    "node": "8.9.1"
   },
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
@@ -23,8 +23,15 @@
   "devDependencies": {
     "request": "^2.81.0",
     "tape": "^4.7.0"
-  }
- }
-
-
-
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
