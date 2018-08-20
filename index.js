@@ -11,5 +11,10 @@ express()
   .set('views', './views')
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('index'))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
+server.listen(port, function() {
+    console.log("App is running on port " + PORT);
+});
+
+
+//   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
