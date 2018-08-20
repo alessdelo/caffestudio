@@ -1,12 +1,12 @@
 {
   "name": "Caffe Studio Design Lab",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Caffe Studio Design Lab App ",
   "main": "index.js",
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "8.9.1"
+    "node": "8.9.2"
   },
   "scripts": {
     "start": "node index.js"
